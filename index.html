@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoey Portfolio</title>
+    <!-- libraries -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,300;1,400&family=DM+Sans:ital@1&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Css Style -->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <a class="sr-only sr-only-focusable" href="#about">Skip to main content</a>
+
+    <!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="image/PropUX.png" alt="Propux logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="location.href='Assets/zoey-resume.pdf'">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Bar End -->
+    <!-- Hero Start -->
+    <div class="hero" id="home" role="banner">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <div class="hero-content">
+              <div class="hero-text">
+                <p>I'm</p>
+                <h1>Zoey Hashemi</h1>
+                <p>who enjoys</p>
+                <span id="auto-type"></span>
+              </div>
+              <div class="hero-btn">
+                <a href="#projects" class="btn">See My Projects</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 d-none d-md-block">
+            <div class="hero-image">
+              <img src="image/Zoey-banner.png" alt="Zoey Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" aria-label="About Me Section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title text-center wow zoomIn" data-aos="zoom-in">
+              <h2>About Me</h2>
+              <div class="about-text">
+                <p data-aos="zoom-in">
+                  <strong> I’m Zoey a Passionate Interactive Media Design Student, Located in Ottawa, Canada.</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <picture>
+              <source srcset="image/Zoey-about.png" type="image/webp">
+              <source srcset="image/Zoey-about-320_x_448.png" media="(max-width: 576px)" sizes="(min-width: 576px) 50vw, 100vw">
+              <source srcset="image/Zoey-about-960_x_1345.png" media="(max-width: 991px)" sizes="(min-width: 992px) 50vw, 100vw">
+              <source srcset="image/Zoey-about-1280_x_1794.png" media="(min-width: 992px)" sizes="33.33vw, (min-width: 1200px) 25vw, 20vw">
+              <img src="image/Zoey-about.png" alt="zoey Image" class="img-fluid" data-aos="slide-right">
+            </picture>
+          </div>
+          <div class="col-md-6" data-aos="slide-left">
+            <p> As a UX designer, I believe that design should be user-centric, intuitive, and engaging. I possess a solid foundation in human-centered design, along with proficiency in industry-standard tools such as <strong>Adobe Creative Suite</strong> and <strong>HTML/CSS</strong>. I am eager to collaborate with a team of designers and developers on projects that have a meaningful impact on users. With my <strong> quick learning</strong> ability and <strong> problem-solving</strong> skills, I am ready to take on new challenges and contribute to your organization’s success as a co-op user experience designer. </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Skills Start -->
+      <div class="container-fluid">
+        <div class="row align-items-left">
+          <div class="col-md-6" data-aos="slide-left">
+            <p class="skill-text">I love the art of storytelling and applying it to my work. Although I may not have the power to solve major global issues, I do have the ability to make a positive impact by improving the experience for users in various areas like job performance, buying processes, or banking. I believe that through storytelling and creative thinking, I can help your business improve and achieve success. Let’s work together to create a better user experience and tell a great story for your customers.</p>
+          </div>
+          <div class="col-md-6" data-aos="slide-right">
+            <div class="skills">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-name">UX Research</div>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-name">Information Architecture</div>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-name">Design Tools</div>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-name">Responsive Design</div>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-name">web Development</div>
+                </div>
+              </div>
+              <div class="social-links">
+                <a href="https://github.com/ZoeyHashemi" target="_blank">
+                  <i class='bx bx-md bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/zohreh-hashemi" target="_blank">
+                  <i class='bx bx-md bxl-linkedin'></i>
+                </a>
+                <a href="mailto:hash0169@algonquinlive.com">
+                  <i class='bx bx-md bx-envelope'></i>
+                </a>
+                <a class="btn" href="assets/zoey-resume.pdf">See My Resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Skills End -->
+      <!-- Design Tool Start  -->
+      <hr style="border-top: 4px solid #ED5751; margin-bottom: 50px;  margin-top: 50px; width: 80px;">
+      <div class="education">
+        <div class="container mt-5">
+          <div class="text-center mb-4  wow zoomIn" data-aos="zoom-in">
+            <h3>Design Tools</h3>
+            <p class="text-center mx-2"> I thrive on immersing myself in projects and managing them comprehensively, from conception to completion. From generating ideas to bringing them to life in development, I am dedicated to utilizing design tools to empower my creativity and deliver exceptional user experiences.</p>
+          </div>
+          <div class="row justify-content-center d-flex" data-aos="zoom-in-down">
+            <div class="col-md-2 col-sm-4 col-6 custom-icon-column">
+              <img src="image/figma.png" alt="Figma" aria-label="Figma">
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 custom-icon-column">
+              <img src="image/xd.png" alt="Adobe XD" aria-label="Adobe XD">
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 custom-icon-column">
+              <img src="image/indesign.png" alt="Adobe InDesign" aria-label="Adobe InDesign">
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 custom-icon-column">
+              <img src="image/illustrator.png" alt="Adobe Illustrator" aria-label="Adobe Illustrator">
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 custom-icon-column">
+              <img src="image/photoshop.png" alt="Adobe Photoshop" aria-label="Adobe Photoshop">
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 custom-icon-column">
+              <img src="image/sketch.png" alt="Sketch" aria-label="Sketch">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Design Tool End  -->
+    <!-- Education Start -->
+    <hr style="border-top: 4px solid #ED5751; margin-bottom: 50px; margin-top: 50px; width: 80px;">
+    <div class="container mt-5">
+      <div class="text-center mb-4 wow zoomIn" data-aos="zoom-in">
+        <h3>My Education</h3>
+        <p class="text-center mx-2">As a lifelong learner, I believe in constantly seeking new knowledge and skills to grow and develop.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card left-card">
+            <div class="card-body">
+              <h3 class="card-title">Interactive Media Design</h3>
+              <p class="card-text">Algonquin college, Ottawa, ON (2022-present) <br>Dean's Honor List, GPA 3.6 /4 <br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card right-card">
+            <div class="card-body">
+              <h3 class="card-title">Persian Literature, Ph.D</h3>
+              <p class="card-text">Ferdowsi University of Mashhad, Iran (2008-2013) <br>Dean's Honor List, GPA 3.8 /4 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Education End -->
+    <!-- Service Start -->
+    <div class="service" id="service">
+      <div class="container ">
+        <hr style="border-top: 4px solid #ED5751; margin-top: 50px; margin-bottom: 50px; width: 80px;">
+        <div class="section-title text-center wow zoomIn" data-aos="zoom-in">
+          <h2>What I do</h2>
+          <p class="text-center mx-2">With a keen eye for aesthetics and a deep understanding of user experience, I create intuitive interfaces that engage and delight users. Additionally, my proficiency in content management systems allows me to develop functional and user-friendly websites. Combining creativity with technical skills, I bring a fresh and innovative approach to web development, delivering visually appealing and effective digital experiences.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="service-text">
+                <h3>User Experience Design</h3>
+                <p> Creating intuitive and user-friendly digital experiences that meet customers' needs through researching, designing wireframes and prototypes, and testing and iterating until optimized.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fas fa-paint-roller"></i>
+              </div>
+              <div class="service-text">
+                <h3>User Interface Design</h3>
+                <p> Focus on designing the visual and interactive elements of a digital product or service, including user interfaces that are visually appealing and easy to use, layout, typography, and color scheme to create a cohesive visual experience. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fa fa-laptop"></i>
+              </div>
+              <div class="service-text">
+                <h3>Content Management System</h3>
+                <p> providing dynamic websites in popular CMS platforms such as WordPress, Drupal, and Shopify. My services include customizing themes, plugins, and templates, ensuring responsive design and mobile compatibility. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fa fa-laptop-code"></i>
+              </div>
+              <div class="service-text">
+                <h3>Web Development</h3>
+                <p> Code and program websites and web-based applications using programming languages such as HTML, CSS, and JavaScript, as well as frameworks and tools to develop the back-end infrastructure. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+    <!-- Portfolio Start -->
+    <hr style="border-top: 4px solid #ED5751; margin-bottom: 50px;  margin-top: 50px; width: 80px;">
+    <div class="portfolio" id="projects">
+      <div class="container">
+        <div class="section-title text-center wow zoomIn" data-aos="zoom-in">
+          <h2>My Portfolio</h2>
+          <p class="text-center mx-2">
+            <strong> Welcome to my world of UI/UX design and web development!</strong>
+            <br> I've had the pleasure of working on a variety of exciting projects that showcase my skills in creating exceptional digital experiences. From designing intuitive interfaces for mobile apps to crafting user-friendly websites, my projects highlight my expertise in UI/UX design, web development, and CMS. Come explore my portfolio and see how I've brought my ideas to life through innovative digital projects!
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <ul id="portfolio-filter" data-aos="zoom-in-down">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-1">UX Projects</li>
+              <li data-filter=".filter-2">Web Development</li>
+              <li data-filter=".filter-3">Content Management System</li>
+              <li data-filter=".filter-4">Graphic Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container" data-aos="zoom-in-down">
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/shopify.png" alt="Image">
+              </div>
+              <div class="portfolio-text">
+                <h3>eCommerce Shopify Website</h3>
+                <a class="btn" href="https://ardesignfashion.myshopify.com/" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/wordpress.png" alt="wordpress project">
+              </div>
+              <div class="portfolio-text">
+                <h3>Portfolio in Wordpress</h3>
+                <a class="btn" href=" http://propux.co/" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/Drupal.png" alt="drupal project">
+              </div>
+              <div class="portfolio-text">
+                <h3>MP Website-Drupal</h3>
+                <a class="btn" href="http://drupal.propux.co/" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/prototyping.png" alt="Image">
+              </div>
+              <div class="portfolio-text">
+                <h3>prototyping</h3>
+                <a class="btn" href="https://xd.adobe.com/view/bb374abc-d4a1-4241-8964-826911d6b5d2-ee64/?fullscreen&hints=off" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/responsive-coding.png" alt="Image">
+              </div>
+              <div class="portfolio-text">
+                <h3>Responsive Website coding</h3>
+                <a class="btn" href="https://zoeyhashemi.github.io/final-project/" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="1s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/clothing-shop-coding.png" alt="clothing-shop">
+              </div>
+              <div class="portfolio-text">
+                <h3>clothing Website Coding</h3>
+                <a class="btn" href="https://zoeyhashemi.github.io/mtm6201-midterm/" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-4 wow fadeInUp" data-wow-delay="1s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/brochure.png" alt="clothing-shop">
+              </div>
+              <div class="portfolio-text">
+                <h3>Brochure designing</h3>
+                <a class="btn" onclick="location.href='Assets/brochure.pdf'" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="1s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/persona.png" alt="clothing-shop">
+              </div>
+              <div class="portfolio-text">
+                <h3>UX Research- Persona</h3>
+                <a class="btn" onclick="location.href='Assets/persona-project.pdf'" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-4 wow fadeInUp" data-wow-delay="1s">
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="image/projects/videography.png" alt="clothing-shop">
+              </div>
+              <div class="portfolio-text">
+                <h3>Videography in adobe premier pro</h3>
+                <a class="btn" href="https://www.youtube.com/watch?v=zbAAzQV1JLM" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio End -->
+    <!-- Contact Start -->
+    <hr style="border-top: 4px solid #ED5751; margin-bottom: 50px;  margin-top: 50px; width: 80px;">
+    <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title text-center" data-aos="zoom-in">
+            <h2>Contact</h2>
+            <p class="text-center mx-4">
+              <strong> Let's Connect and Bring Your Next Project to Life!</strong>
+              <br> I'm sure you already have some exciting ideas in mind for your next project. I'd love to hear all about it! Let's connect and have a friendly chat about how we can turn your vision into a reality. Get in touch with me today, and let's kickstart our collaboration!
+            </p>
+          </div>
+          <div class="row mt-1" data-aos="zoom-in">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address" itemscope itemtype="https://schema.org/PostalAddress">
+                  <i class="fa fa-map-signs" aria-hidden="true"></i>
+                  <h4>Location:</h4>
+                  <p itemprop="addressLocality">Ottawa</p>
+                  <p itemprop="streetAddress">1385 Woodroffe Avenue</p>
+                  <p itemprop="addressRegion">ON</p>
+                </div>
+                <div class="email" itemscope itemtype="https://schema.org/ContactPoint">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <h4>Email:</h4>
+                  <p itemprop="email">hash0169@algonquinlive.com</p>
+                </div>
+                <div class="phone" itemscope itemtype="https://schema.org/ContactPoint">
+                  <i class="fa fa-phone"></i>
+                  <h4>Call:</h4>
+                  <p itemprop="telephone">+1 613-727-4723</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required aria-label="Your name">
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required aria-label="Your email">
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required aria-label="Subject">
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required aria-label="Your message"></textarea>
+                </div>
+                <div class="btn">
+                  <a class="button" role="button" aria-label="Send message">Send</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    <!-- End Contact -->
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-aos="zoom-in-down" role="contentinfo">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="footer-info">
+            <h2>Zoey Hashemi</h2>
+            <h3>Algonquin College</h3>
+            <div class="footer-menu">
+              <p>hash0169@algonquinlive.com</p>
+            </div>
+            <div class="footer-social"  role="navigation">
+              <a href="https://github.com/ZoeyHashemi" target="_blank">
+                <i class='bx bx-sm bxl-github'></i>
+              </a>
+              <a href="https://www.linkedin.com/in/zohreh-hashemi" target="_blank">
+                <i class='bx bx-sm bxl-linkedin'></i>
+              </a>
+              <a href="mailto:hash0169@algonquinlive.com">
+                <i class='bx bx-sm bx-envelope'></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container copyright">
+          <p>&copy; <a href="index.html">PropUX</a>, All Right Reserved | Designed By Zoey Hashemi </p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top" role="button" aria-label="Back to top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+   
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#auto-type', {
+        strings: ["UI/UX Designing", " Product Designing", "Graphic Designing", "Web Developing", "Web Designing", "Apps Designing", "Apps Developing"],
+        typedSpeed: 100,
+        backSpeed: 150,
+        loop: true
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
